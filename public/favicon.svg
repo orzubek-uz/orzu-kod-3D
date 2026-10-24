@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#161b2e"/>
+      <stop offset="60%" stop-color="#0a0c16"/>
+      <stop offset="100%" stop-color="#05060a"/>
+    </radialGradient>
+    <linearGradient id="goldLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8db"/>
+      <stop offset="25%" stop-color="#ffd56b"/>
+      <stop offset="50%" stop-color="#dfa92c"/>
+      <stop offset="75%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#996f14"/>
+    </linearGradient>
+    <linearGradient id="goldDark" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6e4f0d"/>
+      <stop offset="35%" stop-color="#b8891f"/>
+      <stop offset="70%" stop-color="#efc85a"/>
+      <stop offset="100%" stop-color="#ffeeb8"/>
+    </linearGradient>
+    <linearGradient id="velvetCap" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#4a154b"/>
+      <stop offset="50%" stop-color="#23082b"/>
+      <stop offset="100%" stop-color="#0e0414"/>
+    </linearGradient>
+    <linearGradient id="rubyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9999"/>
+      <stop offset="40%" stop-color="#e61c36"/>
+      <stop offset="100%" stop-color="#6b0512"/>
+    </linearGradient>
+    <linearGradient id="sapphireGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a6e3e9"/>
+      <stop offset="40%" stop-color="#0088cc"/>
+      <stop offset="100%" stop-color="#002b4d"/>
+    </linearGradient>
+    <filter id="goldShine" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)"/>
+  <circle cx="256" cy="256" r="236" fill="none" stroke="url(#goldLight)" stroke-width="2" opacity="0.4" stroke-dasharray="14 10"/>
+  <circle cx="256" cy="256" r="226" fill="none" stroke="url(#goldDark)" stroke-width="1.5" opacity="0.65"/>
+
+  <g filter="url(#goldShine)">
+    <polygon points="120,388 392,388 376,412 136,412" fill="url(#goldDark)" opacity="0.75"/>
+    <polygon points="104,412 408,412 396,428 116,428" fill="url(#goldLight)" opacity="0.85"/>
+    <rect x="92" y="428" width="328" height="12" rx="4" fill="url(#goldDark)"/>
+  </g>
+
+  <path d="M152,364 C150,270 200,200 256,192 C312,200 362,270 360,364 Z" fill="url(#velvetCap)"/>
+
+  <g filter="url(#goldShine)">
+    <path d="M256,160 C210,160 170,240 162,352" fill="none" stroke="url(#goldDark)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M256,160 C302,160 342,240 350,352" fill="none" stroke="url(#goldDark)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M256,160 C220,175 168,260 156,364" fill="none" stroke="url(#goldLight)" stroke-width="15" stroke-linecap="round"/>
+    <path d="M256,160 C292,175 344,260 356,364" fill="none" stroke="url(#goldLight)" stroke-width="15" stroke-linecap="round"/>
+    <path d="M256,160 L256,364" fill="none" stroke="url(#goldLight)" stroke-width="16" stroke-linecap="round"/>
+
+    <path d="M136,364 Q256,396 376,364 L378,382 Q256,414 134,382 Z" fill="url(#goldLight)"/>
+    <path d="M134,382 Q256,414 378,382 L380,392 Q256,424 132,392 Z" fill="url(#goldDark)"/>
+
+    <path d="M256,270 C242,284 236,310 244,360 L268,360 C276,310 270,284 256,270 Z" fill="url(#goldLight)"/>
+    <circle cx="256" cy="265" r="9" fill="url(#goldLight)"/>
+
+    <path d="M180,296 C168,310 166,334 176,366 L198,366 C204,334 194,310 180,296 Z" fill="url(#goldLight)"/>
+    <circle cx="178" cy="292" r="8" fill="url(#goldLight)"/>
+
+    <path d="M332,296 C318,310 308,334 314,366 L336,366 C346,334 344,310 332,296 Z" fill="url(#goldLight)"/>
+    <circle cx="334" cy="292" r="8" fill="url(#goldLight)"/>
+
+    <ellipse cx="256" cy="154" rx="19" ry="17" fill="url(#goldLight)"/>
+    <ellipse cx="256" cy="154" rx="14" ry="12" fill="url(#goldDark)"/>
+
+    <!-- Cross Pattée -->
+    <path d="M251,128 L238,82 L274,82 L261,128 Z" fill="url(#goldLight)"/>
+    <polygon points="240,84 256,92 272,84 256,76" fill="#fffbe8"/>
+    <path d="M251,144 L244,152 L268,152 L261,144 Z" fill="url(#goldDark)"/>
+    <path d="M248,131 L202,118 L202,154 L248,141 Z" fill="url(#goldLight)"/>
+    <path d="M264,131 L310,118 L310,154 L264,141 Z" fill="url(#goldLight)"/>
+    <circle cx="256" cy="136" r="6" fill="url(#rubyGrad)"/>
+
+    <!-- Jewels -->
+    <ellipse cx="256" cy="386" rx="10" ry="12" fill="url(#rubyGrad)"/>
+    <ellipse cx="214" cy="383" rx="8" ry="9" fill="url(#sapphireGrad)"/>
+    <ellipse cx="298" cy="383" rx="8" ry="9" fill="url(#sapphireGrad)"/>
+  </g>
+
+  <polygon points="256,66 258,74 266,76 258,78 256,86 254,78 246,76 254,74" fill="#ffffff" opacity="0.9"/>
+  <text x="256" y="472" font-family="'Cinzel', 'Cinzel Decorative', 'Trajan Pro', serif" font-size="30" font-weight="800" letter-spacing="4" fill="url(#goldLight)" text-anchor="middle" filter="url(#goldShine)">ORZUKOD 3D</text>
+</svg>

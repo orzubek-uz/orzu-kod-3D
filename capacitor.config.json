@@ -1,0 +1,6 @@
+{
+  "appId": "com.orzukod.wizardchess3d",
+  "appName": "Orzukod 3D",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
